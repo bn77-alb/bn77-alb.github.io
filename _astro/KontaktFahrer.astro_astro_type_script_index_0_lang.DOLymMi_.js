@@ -1,0 +1,1 @@
+import{t as e}from"./track.LQNOctZK.js";e(`Kontaktseite besucht`,{page:location.pathname}),document.querySelectorAll(`[data-self-check]`).forEach(e=>{let t=e.querySelector(`[data-check-yes]`),n=e.querySelector(`[data-check-no]`);e.querySelectorAll(`[data-check]`).forEach(e=>e.addEventListener(`change`,()=>{t.hidden=e.value!==`ja`,n.hidden=e.value===`ja`}))});
